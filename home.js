@@ -1,5 +1,4 @@
-import { questionBuilder } from "./quiz.js"; 
-  
+import { questionBuilder } from "./quiz.js";
  const startButton = document.querySelector('.js-start-button'); 
  const quitButton = document.querySelector('.js-quit-button'); 
  const continueButton = document.querySelector('.js-continue-button'); 
