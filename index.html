@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>QUIZ APP</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="start-button">
+            <button class="js-start-button">Start Quiz</button></div>
+    </div>
+
+<!--box info-->
+<div class="info-box js-info-box">
+    <div class="info-title"><span>Some rules of this Quiz</span></div>
+    <div class="info-list">
+    <div class="info"> 1. You will have only <span>30 seconds</span> for each question. 
+    </div>
+    <div class="info">2. Try your best and <span>leave the rest</span> may not be enough.</div>
+    <div class="info">3. The questions are <span>hard</span> if you do not know.</div>
+    <div class="info">
+        4. Once you start, <span>there is</span> no going back.</div>
+     <div class="info">5. Be fast <span>and</span> furious. Lol</div>
+</div>
+<div class="buttons">
+    <button class="quit js-quit-button">Exit Quiz</button>
+    <button class="restart js-continue-button">Continue</button>
+ </div>
+</div>
+
+<!-- Quick Questions box-->
+<div class="result-box js-result-box">
+    <div class="icon">
+        <i class="fas fa-crown"></i>
+    </div>
+    <div class="complete-text">
+        You have completed the quiz!</div>
+        <div class="score-text">
+            <span class="js-score-content"></span>
+        </div>
+        <div class="buttons">
+            <button class="restart js-restart-quiz">Replay Quiz</button>
+            <button class="quit js-finished-quiz">Quit Quiz</button>
+    </div>
+</div>
+
+<script src="home.js" type="module"></script>
+</body>
+</html>
